@@ -3,11 +3,11 @@ The Board games like tic-tac-toe can be easliy defeated with the help of algorit
 
 The Expectimax algorithm is very effective in such cases as next state of the game is uncertain. Expectimax search is a search/decision-making algorithm that maximizes the average (expected) reward. It is typically applied to trees that have stochastic nodes, where the outcome of an action is uncertain.
 
-The algorithm works on the evaluation function. The one I used is as follows:
+The algorithm works on the evaluation function. The one I used is as follows:<br>
 [[2^15,  2^14,  2^13,  2^12]<br>
-[2^8,    2^9,   2^10,  2^11]<br>
-[2^7,    2^6,   2^5,   2^4]<br>
-[2^0,    2^1,   2^2,   2^3]]<br>
+ [2^8,    2^9,   2^10,  2^11]<br>
+ [2^7,    2^6,   2^5,   2^4]<br>
+ [2^0,    2^1,   2^2,   2^3]]<br>
 
 ## Expectimax Tree
 
